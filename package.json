@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "govind-kurapati",
-  "homepage": "https://GovindKurapati.github.io/Govind-Kurapati-Portfolio/",
+  "homepage": "https://govindkurapati.github.io/Govind-Kurapati-Portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
