@@ -44,6 +44,7 @@ export default defineConfig({
     visualizer({ template: 'sunburst' }) as unknown as PluginOption,
     VitePWA(pwaOptions),
   ],
+  base: "Govind-Kurapati-Portfolio",
   server: {
     open: true,
   },
