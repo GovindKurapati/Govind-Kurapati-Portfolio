@@ -62,17 +62,23 @@ const HeroPage = () => {
             </HStack>
           </HStack>
           <Flex w="100%">
-            <Button
+            <Link
               w="100%"
-              variant="solid"
-              size="lg"
-              _hover={{
-                bg: 'gray.600',
-                color: '#F5F5F5',
-              }}
+              href="https://drive.google.com/file/d/1LybI-jUkVhjofKTqXAn6kKNtzPaLbtZs/view?usp=sharing"
+              isExternal
             >
-              Resume
-            </Button>
+              <Button
+                w="100%"
+                variant="solid"
+                size="lg"
+                _hover={{
+                  bg: 'gray.600',
+                  color: '#F5F5F5',
+                }}
+              >
+                Resume
+              </Button>
+            </Link>
           </Flex>
         </Stack>
       </VStack>

@@ -1,6 +1,6 @@
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-const APP_NAME = 'vite-react-chakra-starter';
+const APP_NAME = 'govind-kurapati-portfolio';
 
 const Meta = () => {
   return (
